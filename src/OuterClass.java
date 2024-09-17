@@ -5,6 +5,7 @@ public class OuterClass {
     public  void  heyThere(){
         System.out.println("Hey there!");
         class  LocalInnerClass{
+            String localInnerClassVariable = "Here;s Edwin";
 
         }
     }
