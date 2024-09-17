@@ -4,9 +4,12 @@ public class OuterClass {
 
     public  void  heyThere(){
         System.out.println("Hey there!");
+        class  LocalInnerClass{
+
+        }
     }
 
-    public class  InnerClass{
+    public static class  InnerClass{
         int innerNumber = 8;
 
         public  void  whatsUp(){

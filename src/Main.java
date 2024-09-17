@@ -5,7 +5,8 @@ public class Main {
         OuterClass outer = new OuterClass();
         outer.heyThere();
 
-        OuterClass.InnerClass inner = outer.new InnerClass();
+        OuterClass.InnerClass inner = new OuterClass.InnerClass();
+        inner.whatsUp();
 
     }
 }
