@@ -7,6 +7,10 @@ public class OuterClass {
         class  LocalInnerClass{
             String localInnerClassVariable = "Here;s Edwin";
 
+            public  void  printLocalInnnerClassVariable(){
+                System.out.println(localInnerClassVariable);
+            }
+
         }
     }
 
