@@ -10,8 +10,9 @@ public class OuterClass {
             public  void  printLocalInnnerClassVariable(){
                 System.out.println(localInnerClassVariable);
             }
-
         }
+        LocalInnerClass lic = new LocalInnerClass();
+        lic.printLocalInnnerClassVariable();
     }
 
     public static class  InnerClass{
